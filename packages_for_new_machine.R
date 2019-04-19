@@ -1,13 +1,16 @@
 # Loading packages. Use when setting up R on a new machine.
 
+# tidyverse
+install.packages("tidyverse")
+
 # Detect code that violates the tidyverse style guide
 install.packages("lintr")
-library("lintr") # To use: lint("filename.R")
 
 # Apply suggested formatting to code
-install.packages("stylerb")
-library("stylerb") # To use: style_file("filename.R")
+install.packages("styler")
 
 # Extra string functions
 install.packages("stringr")
+library("lintr") # To use: lint("filename.R")
+library("styler") # To use: style_file("filename.R")
 library("stringr")
