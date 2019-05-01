@@ -24,6 +24,12 @@ install.packages("ggplot2")
 # I don't know what this does yet
 install.packages("rmarkdown")
 
+# Read rectangular text data
+install.packages("readr")
+
+# Manipulate data
+install.packages("dplyr")
+
 library("lintr") # To use: lint("filename.R")
 library("styler") # To use: style_file("filename.R")
 library("stringr")
@@ -31,6 +37,8 @@ library("tidyr")
 library("RColorBrewer")
 library("ggplot2")
 library("rmarkdown")
+library("readr")
+library("dplyr")
 
 
 
