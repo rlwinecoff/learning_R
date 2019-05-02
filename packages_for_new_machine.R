@@ -30,6 +30,12 @@ install.packages("readr")
 # Manipulate data
 install.packages("dplyr")
 
+# Enables quarterly dates
+install.packages("zoo")
+
+# Companion to applied regression; contains recode
+install.packages("car")
+
 library("lintr") # To use: lint("filename.R")
 library("styler") # To use: style_file("filename.R")
 library("stringr")
@@ -39,6 +45,7 @@ library("ggplot2")
 library("rmarkdown")
 library("readr")
 library("dplyr")
+library("zoo")
 
 
 
