@@ -36,6 +36,9 @@ install.packages("zoo")
 # Companion to applied regression; contains recode
 install.packages("car")
 
+# Knit markdown docs
+install.packages("knitr")
+
 library("lintr") # To use: lint("filename.R")
 library("styler") # To use: style_file("filename.R")
 library("stringr")
@@ -46,6 +49,7 @@ library("rmarkdown")
 library("readr")
 library("dplyr")
 library("zoo")
+library("knitr")
 
 
 
