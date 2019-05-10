@@ -42,6 +42,10 @@ install.packages("knitr")
 # Make dummy variables from factor or character variables, i.e., tab, gen
 install.packages("fastDummies")
 
+# Label variables
+install.packages("expss")
+
+
 library("lintr") # To use: lint("filename.R")
 library("styler") # To use: style_file("filename.R")
 library("stringr")
@@ -54,5 +58,5 @@ library("dplyr")
 library("zoo")
 library("knitr")
 library("fastDummies")
-
+library("expss")
 
