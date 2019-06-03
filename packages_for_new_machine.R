@@ -36,6 +36,15 @@ install.packages("zoo")
 # Companion to applied regression; contains recode
 install.packages("car")
 
+# dunno
+install.packages('knitr')
+
+# dunno
+install.packages('Hmisc')
+
+# Useful for labeling variables
+install.packages('sjlabelled')
+
 library("lintr") # To use: lint("filename.R")
 library("styler") # To use: style_file("filename.R")
 library("stringr")
@@ -46,6 +55,8 @@ library("rmarkdown")
 library("readr")
 library("dplyr")
 library("zoo")
-
+library('knitr')
+library('Hmisc')
+library('sjlabelled')
 
 
