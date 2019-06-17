@@ -36,7 +36,6 @@ install.packages("zoo")
 # Companion to applied regression; contains recode
 install.packages("car")
 
-<<<<<<< HEAD
 # dunno
 install.packages('knitr')
 
@@ -45,7 +44,7 @@ install.packages('Hmisc')
 
 # Useful for labeling variables
 install.packages('sjlabelled')
-=======
+
 # Knit markdown docs
 install.packages("knitr")
 
@@ -55,7 +54,10 @@ install.packages("fastDummies")
 # Label variables
 install.packages("expss")
 
->>>>>>> a0290ec05ac9d6ef103204057ccfd81ae2a8c1ee
+# Export data to excel, stata, etc
+install.packages("foreign")
+
+
 
 library("lintr") # To use: lint("filename.R")
 library("styler") # To use: style_file("filename.R")
@@ -67,14 +69,12 @@ library("rmarkdown")
 library("readr")
 library("dplyr")
 library("zoo")
-<<<<<<< HEAD
 library('knitr')
 library('Hmisc')
 library('sjlabelled')
-
-=======
 library("knitr")
 library("fastDummies")
 library("expss")
->>>>>>> a0290ec05ac9d6ef103204057ccfd81ae2a8c1ee
+library("foreign")
+
 
